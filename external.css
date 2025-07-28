@@ -1,0 +1,17 @@
+  .main{
+    width: 1000px;
+    height: 500px;
+    background-color: aqua;
+    text-align: center;
+    color: #a33b3bec;
+    font-size: 50px;
+    
+
+  }
+  .main:hover{
+    background-color: blue;
+    font-size:100px;
+    width: 500px;
+    align-items: center;
+    color: chartreuse;
+  }
