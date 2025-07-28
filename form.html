@@ -5,12 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>forms
     </title>
+    <style>
+         .main{
+            background-color: aqua;
+            width: 1300px;
+            height: 700px;
+        }
+        #leg{
+            font-size: larger;
+            font-display: rgb(51, 255, 0);
+            height: 50px;
+            border: 10px;
+            background-color: brown;
+        }
+    </style>
+       
+    
 </head>
 <body>
     
-    <form  >
+    <form class="main">
         <fieldset>
-            <legend>ENQUIRY</legend>
+            <legend align="center" id="leg">ENQUIRY</legend>
         Name : <input type="text" name="name" placeholder="Enter you name" required ="" autofocus >
         <br><br>
         Address : <textarea name="adress"  maxlength="20"></textarea>
