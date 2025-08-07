@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .a{
+            width:600px;
+            height: 600px;
+            margin:auto;
+            border: 2px solid black;
+            position: absolute;
+        }
+        .b{
+        width: 200px;
+        height: 200px;
+        background: #6d0404;
+        position: relative;
+        margin-top:0px;
+        margin-left:0;
+        animation: b 5s;
+       /* animation-name:b;
+        animation-duration:5s;*/
+        animation-delay: 2s;
+        animation-iteration-count: infinite;
+        animation-fill-mode: forwards;
+        animation-direction: alternate;
+        }
+        @keyframes b{
+            0%{
+                top:0px;
+                left:0px;
+                background:  #6d0404;
+            }
+            25%{
+                top:0px;
+                left:400px;
+                background: #c00572;
+            }
+            50%
+            {
+                top: 400px;
+                left: 400px;
+                background:yellow;
+            }
+            75%{
+                top: 400px;
+                left: 00px;
+                background:green;
+            }
+            100%{
+                top: 00px;
+                left: 0px;
+                background-color: black;
+            }
+            
+        }
+
+        
+
+
+</style>
+</head>
+<body>
+    <div class="a">
+        <div class="b"></div>
+    </div>
+</body>
+</html>
