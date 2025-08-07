@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .a{
+            width: 700px;
+            height: 150px;
+            margin: 100px auto;
+            border: 2px solid black;
+            position: relative;
+        }
+        .b{
+width: 150px;
+height: 100px;
+margin-top: 20px;
+background-color: red;
+animation-duration: 5s;
+animation-name: b;
+position: absolute;
+animation-timing-function: ease-in;
+
+        }
+        @keyframes  b{
+            form{
+                left: 0px;
+            }
+            to{
+                left: 550px;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="a">
+        <div class="b"></div>
+    </div>
+</body>
+</html>
