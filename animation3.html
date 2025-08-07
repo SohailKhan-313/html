@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 100%;
+            height: 200px;
+            border: 2px solid black;
+            margin: auto;
+            position: relative;
+            background: rgb(72, 104, 173);
+        }
+        .sun{
+            width: 100px;
+            height: 100px;
+            background: rgb(255, 255,0);
+            border-radius: 50px;
+            margin-top: 10px;
+            float: left;
+            position: absolute;
+        animation: sun 12s linear;
+        }
+        .cloud{
+            width: 80 px;
+            height: 80px;
+            border-radius: 50px;
+            float: left;
+            position: absolute;
+            left: 
+            80px;
+            opacity: 0.4;
+            margin-top: 20px;
+            animation: cloud 3s ;
+            }
+            .cloud2{
+                 width: 80 px;
+            height: 80px;
+            border-radius: 50px;
+             float: left;
+               position: absolute;
+               left: 700px;
+                 margin-top: 20px;
+                 animation:  cloud1 9s linear ; 
+                 animation-delay:0;
+            }  
+             .cloud3{
+                 width: 80 px;
+            height: 80px;
+            border-radius: 50px;
+             float: left;
+               position: absolute;
+               left: 950px;
+                 margin-top: 20px;
+                 animation: cloud3 4s;
+                 animation-delay: 8s;
+            }
+            @keyframes sun{
+                from{
+                    left: 0px;
+top: 10px;
+                }
+                to{
+                    left: 100%;
+                }
+               
+            }
+             @keyframes cloud {
+                    from{
+                        left: 80px;
+
+                    }
+                    to{
+                        left: -100px;
+                    }
+                }
+                @keyframes cloud1{
+                    from{
+                        left: 700px;
+                        top: 20px;
+
+                    }
+                    to{
+                 left: -110%;
+                    }
+                }
+                @keyframes cloud3{
+                    from{
+                        left: 950px;
+                    }
+                    to{
+                        left: 120%;
+                    }
+                }
+            
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="sun"></div>
+        <div class="cloud"> <img src="download.jpeg" alt="" width="100%" height="100%"></div>
+           <div class="cloud2"> <img src="download.jpeg" alt="" width="100%" height="100%"></div>
+   <div class="cloud3"> <img src="download.jpeg" alt="" width="100%" height="100%"></div>
+
+    </div>
+    
+    
+</body>
+</html>
